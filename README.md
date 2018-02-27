@@ -77,3 +77,15 @@ As you make rough sketches in your notebook or on the whiteboard, you're trying 
 * Flat design is fine, as long as you don't **erase functionality** cues from your UI.
 
 * Unsure which UI Pattern is appropriate? Review [User Interface Design Patterns](http://ui-patterns.com/patterns).
+
+___
+
+## CSS Grid
+
+Not a lot of best practice documentation exists yet on combining [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) with React.
+
+When combined with [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), CSS Grid is still the most powerful responsive layout tool we have. Just be sure to
+
+* **Plan your components** that use Grid carefully. Remember, there is no support yet for subgrids.
+
+* **Avoid flattening markup** to achieve grid goals. Keep your HTML semantic!
