@@ -5,7 +5,7 @@ export default class About extends Component {
   render() {
     return (
       <DocumentTitle title="Budget Tracker | About"> 
-        <div>About page</div>
+        <h1>About page</h1>
       </DocumentTitle>
     );
   }
