@@ -41,3 +41,29 @@ Because React is new to us, it's easy to forget to apply principles we've alread
      Name: <input type="text" id="userName" name="name"/>
    </label>
    ```
+
+### Document `<title>`
+
+* In the React labs we've built so far the `<title>` tends to remain unchanged from its initial declaration in `index.html`. 
+
+* In a complex app, however, updating the `<title>` can keep the user aware of changes in context.
+
+* For a more dynamic `<title>`, check out the [React Document Title Component](https://github.com/gaearon/react-document-title).
+
+### Accessibility Development Assistance
+
+* The [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y) plugin for ESLint checks [A11y Project](https://a11yproject.com/checklist.html) accessibility rules on JSX elements. 
+
+## The Design Process
+
+As you make rough sketches in your notebook or on the whiteboard, you're trying to solve three things:
+
+1. **The page layout.** Start with mobile legibility first and work your way outward.
+
+1. **The component architecture.** What components will be necessary, and when?
+
+1. **The semantic HTML markup** used to display content. Planning this out ahead of time will help you build more meaningful components.
+
+### Flat design vs skeuomorphism
+
+![Three calculators ranging from highly skeuomorphic to very flat](http://img.my.csdn.net/uploads/201302/20/1361347054_2303.png "Three calculators")
