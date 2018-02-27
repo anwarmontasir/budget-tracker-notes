@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Header from './Header';
+import About from '../about/About';
+import Contact from '../contact/Contact';
 import './App.css';
 
 export default class App extends Component {
@@ -14,7 +16,7 @@ export default class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/contact" component={Contact} />
-              <Redirect to="/"/>
+              <Redirect to="/" />
             </Switch>
           </main>
           <footer id="main-footer">
@@ -23,5 +25,11 @@ export default class App extends Component {
         </div>
       </Router>
     );
+  }
+}
+
+class Home extends Component {
+  render() {
+    return <div>I am Home!</div>;
   }
 }
