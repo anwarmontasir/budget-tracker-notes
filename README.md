@@ -66,4 +66,4 @@ As you make rough sketches in your notebook or on the whiteboard, you're trying 
 
 ### Flat design vs skeuomorphism
 
-![Three calculators ranging from highly skeuomorphic to very flat](http://img.my.csdn.net/uploads/201302/20/1361347054_2303.png "Three calculators")
+![Three calculators ranging from highly skeuomorphic to very flat](calculator.png "Three calculators")
