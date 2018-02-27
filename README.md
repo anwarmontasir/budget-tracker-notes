@@ -8,7 +8,7 @@ You aren't expected to formally complete the UX Strategy process due to lack of 
 * **What are the use circumstances for different types of users?**
 * **Who is the competition?**
 
-   There's a lot of budget tracking apps out there already–there's 25 here listed at [Best Budgeting and Personal Finance Apps](https://www.tomsguide.com/us/pictures-story/548-best-budget-expense-apps.html#s2). Think about
+   There's a lot of budget tracking apps out there already–there's 25 listed here at [Best Budgeting and Personal Finance Apps](https://www.tomsguide.com/us/pictures-story/548-best-budget-expense-apps.html#s2). Think about
 
    * What features are common to the highest-rated budgeting apps?
    * What distinguishes a usable app from a quickly abandoned one?
