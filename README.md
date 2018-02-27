@@ -80,6 +80,26 @@ As you make rough sketches in your notebook or on the whiteboard, you're trying 
 
 ___
 
+## PostCSS Variables
+
+* If you want to keep your PostCSS variables in an *external* file, as we did in part one of the DevSign course, you'll need to install [postcss-import](https://github.com/postcss/postcss-import).
+
+* This will then be required **first** in your `postcss.config.js` file:
+
+   ```
+   /* eslint-env node */
+   module.exports = {
+     plugins: [
+       require('postcss-import'),
+       require('precss'),
+       require('autoprefixer')
+     ]
+   };
+   ```
+
+* [Responsive Typography](https://www.smashingmagazine.com/2016/05/fluid-typography/) is doable in React, but advisable only for apps with lots to read. You'll want more precise control for this lab.
+___
+
 ## CSS Grid
 
 Not a lot of best practice documentation exists yet on combining [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) with React.
