@@ -13,6 +13,8 @@ You aren't expected to formally complete the UX Strategy process due to lack of 
    * What features are common to the highest-rated budgeting apps?
    * What distinguishes a usable app from a quickly abandoned one?
 
+___
+
 ## Accessibility
 
 As you develop, keep your eye on the [React Accessibility Docs](https://reactjs.org/docs/accessibility.html). It's a valuable collection of checklists and resources.
@@ -54,6 +56,8 @@ Because React is new to us, it's easy to forget to apply principles we've alread
 
 * The [eslint-plugin-jsx-a11y](https://github.com/evcohen/eslint-plugin-jsx-a11y) plugin for ESLint checks [A11y Project](https://a11yproject.com/checklist.html) accessibility rules on JSX elements. 
 
+___
+
 ## The Design Process
 
 As you make rough sketches in your notebook or on the whiteboard, you're trying to solve three things:
@@ -64,6 +68,12 @@ As you make rough sketches in your notebook or on the whiteboard, you're trying 
 
 1. **The semantic HTML markup** used to display content. Planning this out ahead of time will help you build more meaningful components.
 
-### Flat design vs skeuomorphism
+### Your User Interface
+
+* When considering your app's visual style, remember that skeuomorphic visual references to familiar real-world processes can sometimes **minimize the need for instructions**.
 
 ![Three calculators ranging from highly skeuomorphic to very flat](calculator.png "Three calculators")
+
+* Flat design is fine, as long as you don't **erase functionality** cues from your UI.
+
+* Unsure which UI Pattern is appropriate? Review [User Interface Design Patterns](http://ui-patterns.com/patterns).
