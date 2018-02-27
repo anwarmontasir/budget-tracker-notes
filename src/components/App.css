@@ -11,14 +11,22 @@
     grid-template-rows: auto 1fr auto;
 }
 
-#main-header  {grid-area: header;  background: $dark;  color: $light;}
-#logo {width: 64px; margin: .5rem auto;}
+#main-header  {
+    grid-area: header;  
+    background: $dark;  
+    color: $light;
+}
 
-#main-content {grid-area: content; background: $light; color: $dark;}
+#main-content {
+    grid-area: content; 
+    background: $light; 
+    color: $dark;
+}
+
 #main-footer  {
     grid-area: footer;  
     background: $dark;  
     color: $light;
-    text-align: center;
     padding: $contentPadding;
+    text-align: center;
 }
