@@ -23,3 +23,21 @@ Because React is new to us, it's easy to forget to apply principles we've alread
 
 * [Skip Navigation Links](https://webaim.org/techniques/skipnav/) for screen readers
 * [Landmark Roles](https://dequeuniversity.com/assets/html/jquery-summit/html5/slides/landmarks.html)
+
+### Accessible forms
+
+* Review and apply [How to structure an HTML form](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/How_to_structure_an_HTML_form) at MDN
+* Note that JSX uses `htmlFor` in place of `for`:
+
+   ```
+   <label htmlFor="userName">Name:</label>
+   <input id="userName" type="text" name="name"/>
+   ```
+
+* The MDN article recommends using `for` (or in this case, `htmlFor`) **even if the form widget is nested within a `label`**:
+
+   ```
+   <label htmlFor="userName">
+     Name: <input type="text" id="userName" name="name"/>
+   </label>
+   ```
